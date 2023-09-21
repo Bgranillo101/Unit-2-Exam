@@ -29,3 +29,28 @@ table, th, td {
 #tableone {
    color:grey;
 }
+.homepage {
+    text-align: center;
+    color: blue;
+
+}
+.head {
+    color: red;
+    font-size: 40px;
+    font-family: fantasy;
+    text-align: center;
+}
+.head:hover {
+    color: skyblue;
+    font-size: 40px;
+    font-family: fantasy;
+    text-align: center;
+}
+.content {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+.foot {
+    color: lightgray;
+}
