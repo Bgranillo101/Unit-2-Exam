@@ -51,6 +51,10 @@ table, th, td {
     color: white;
     font-size: 35px;
 }
-.foot {
+.source {
     color: lightgray;
+    text-align: left;
+}
+.description {
+    color: white
 }

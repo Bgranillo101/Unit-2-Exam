@@ -1,31 +1,64 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Purchase</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+  </head>
+<body class = "container-fluid">
     <header>
         <div class = "head">
             <h1>Mircosoft buys Parlano and Mindalign</h1>
         </div>
     </header>
     <main>
-        <div class = "content">
-            <a href = "https://unsplash.com/photos/k1LKjCuOgns"><img src = "https://images.unsplash.com/photo-1633113087654-c49c686c2cdf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" width = 400 height = 500></a>
-            <p>On August 29, 2007, Microsoft purchased Parlano. Along with it them purchased its persistent group chat product, MindAlign.</p>
-        </div>
+        <nav class="navbar navbar-dark bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">The History of Microsoft Teams</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="main-nav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="purchase.html">The Purchase</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="office365.html">Office 365</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="free.html">Free Version</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="firstlineworkers.html">For Firstline Workers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="skype.html">No More Skype</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </main>
-    <footer>
-        <div class = "foot">
-            <h2>Sources:</h2>
-            <h3>https://en.wikipedia.org/wiki/Microsoft_Teams</h3>
-            <h3>Microsoft Edge. Two coworkers sitting in an office working on Surface laptops holiday platter and decorations surrounding them. 2021. upsplash.com (https://unsplash.com/photos/k1LKjCuOgns)</h3>
+    <div class="container-fluid text-center">
+        <div class="row align-items-start">
+          <div class="col-6">
+            <a href = "https://unsplash.com/photos/k1LKjCuOgns"><img src = "https://images.unsplash.com/photo-1633113087654-c49c686c2cdf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" width = 400 height = 500></a>
+          </div>
+          <div class="col-6">
             <br>
+            <p class = "description">On August 29, 2007, Microsoft purchased Parlano. Along with it them purchased its persistent group chat product, MindAlign.</p>
+            <br>
+            <div class = "source">
+                <p>Sources:</p>
+                <p>https://en.wikipedia.org/wiki/Microsoft_Teams</p>
+                <p>Microsoft Edge. Two coworkers sitting in an office working on Surface laptops holiday platter and decorations surrounding them. 2021. upsplash.com (https://unsplash.com/photos/k1LKjCuOgns)</p>
+            </div>
+          </div>
         </div>
-    </footer>
+    </div>
     <table class = "timeline">
         <tr id ="tableone">
             <th>Mircosoft buys Parlano and Mindalign</th>
@@ -52,5 +85,6 @@
     <div class = "homepage">
         <a href = "index.html">Homepage</a>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
